@@ -10,7 +10,7 @@ import org.springframework.web.client.RestTemplate;
 
 @SpringBootApplication
 @EnableEurekaClient
-@EntityScan(basePackages = {"com.accelerate.visor.model"})
+@EntityScan(basePackages = {"com.accelerate.visor"})
 public class VisorSchoolAppServiceApplication {
 
 	public static void main(String[] args) {
